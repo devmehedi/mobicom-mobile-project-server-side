@@ -179,7 +179,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Running server On //https port", port);
+  console.log("Running server On //https: port", port);
 });
 
 //${process.env.DB_USER}:${process.env.DB_PASS}
