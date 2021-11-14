@@ -38,7 +38,7 @@ async function verifyToken(req, res, next) {
 async function run() {
   try {
     await client.connect();
-    const database = client.db('mobileProject');
+    const database = client.db('mobi-com');
     const productsCollection = database.collection("products");
     const ordersCollection = database.collection("orders");
     const reviewsCollection = database.collection("reviews");
