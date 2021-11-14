@@ -8,7 +8,7 @@ const ObjectId = require("mongodb").ObjectId;
 // const axios = require("axios").default;
 
 const app = express();
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 8000;
 
 // Middlewar
 app.use(cors());
@@ -210,7 +210,7 @@ app.get("/", (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log("Running server On port", port);
+  console.log("Running server On //https port", port);
 });
 
 //${process.env.DB_USER}:${process.env.DB_PASS}
